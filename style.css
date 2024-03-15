@@ -1,0 +1,48 @@
+p {
+  color: rgb(62, 45, 255);
+  font-size: 24px;
+}
+body {
+  font-family: "Vina Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  color: rgb(26, 24, 24);
+}
+#left { font-size: 24px;}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  rgb(62, 45, 255);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#grad 
+{
+  background-image: linear-gradient(to right, red , rgb(0, 0, 255));
+}
+#grad2 
+{
+  background-image: linear-gradient(to right, rgb(255, 0, 0) , rgb(0, 0, 0));
+}
+#grad3
+{
+  background-image: linear-gradient(to right, rgb(190, 173, 173) , rgb(97, 119, 0));
+}
